@@ -1,15 +1,32 @@
 /* HEADER */
 
+header {
+  margin-top: 25px;
+}
+
 .header-font {
   font-family: 'Kanit', sans-serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 1.8px;
   text-transform: uppercase;
-  text-decoration: none;
+  text-decoration: none !important;
   color: #22435D !important;
 }
 
 .header-font:hover {
   color: #22435D !important;
 } 
+
+header .navbar-brand {
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+header .nav-item {
+  margin-right: 25px;
+}
+
+header button {
+  margin-right: 10%;
+}
