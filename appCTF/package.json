@@ -1,0 +1,23 @@
+{
+  "name": "appctf",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "method-override": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "debug": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hessman/kubectf/tree/AppCTF"
+  },
+  "author": "lukihd, casamandine, hessman",
+  "license": "ISC"
+}
