@@ -17,7 +17,6 @@ app.use(methodOverride('_method'))
 
 // Routes
 app.use('/', require('./routes/index'))
-// app.use('/', require('./routes/auth'))
 
 // Server
 app.listen(port, () => {
