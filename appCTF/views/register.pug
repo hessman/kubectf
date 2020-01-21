@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  .container#register-content
+    .card.card-border
+      .card-title-text Register to KubeCTF
+      hr
+      .card-body
+        form(action="", method="post")#register-form
+          .row
+            .col
+              .form-group
+                label(for="registerEmail") Email address
+                input(type="email", name="email", id="registerEmail", aria-describedby="registerEmailHelp")
+                small(id="registerEmailHelp").form-text.text-muted Enter your email address
+              .form-group
+                label(for="registerPassword") Password
+                input(type="password", name="password", id="registerPassword", aria-describedby="registerPasswordHelp")
+                small(id="registerPasswordHelp").form-text.text-muted Enter your password
+            .col          
+              .form-group
+                label(for="registerEmailConfirm") Email confirmation
+                input(type="email", name="emailConfirm", id="registerEmailConfirm", aria-describedby="registerEmailConfirmHelp")
+                small(id="registerEmailConfirmHelp").form-text.text-muted Confirm your email address
+              .form-group
+                label(for="registerPasswordConfirm") Password confirmation
+                input(type="password", name="passwordConfirm", id="registerPasswordConfirm", aria-describedby="registerPasswordConfirmHelp")
+                small(id="registerPasswordConfirmHelp").form-text.text-muted Confirm your password

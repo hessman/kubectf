@@ -1,5 +1,9 @@
 /* HEADER */
 
+header #brand-text{
+  margin-left: 5px;
+}
+
 header {
   margin-top: 25px;
 }
@@ -29,4 +33,43 @@ header .nav-item {
 
 header button {
   margin-right: 10%;
+}
+
+/* REGISTER */
+
+#register-content {
+  margin-top: 75px;
+  padding: 0 125px;
+}
+
+.card-border {
+  border-style: none;
+  box-shadow: 0px 0px 9px 0px rgba(148,148,148,0.6);
+}
+
+.card-title-text {
+  margin-top: 20px;
+  font-size: x-large;
+  text-align: center;
+  color: #22435D !important;
+}
+
+#register-form label {
+  display: block;
+}
+
+#register-form input {
+  display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
